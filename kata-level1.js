@@ -12,7 +12,7 @@ var repeatNumbers = function(data) {
 
 function getString(array) { // Parameter type: array [number to repeat as a string, number of repetition]
   var stringToRepeat = array[0].toString();
-  var nR = array[1]; // nR = number of repetition (obs. first add in the line above)
+  var nR = array[1]; // nR = number of repetition
   var stringResult = "";
   for (var i = 0; i < nR; i++) {
     stringResult = stringResult.concat(stringToRepeat);
